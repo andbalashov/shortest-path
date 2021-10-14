@@ -1,1 +1,10 @@
-# ShortestPath
+# Shortest path algorithm in connected undirected acyclic graphs
+
+The aim of the study was to develop an algorithm and software implementation of the methodfinding the shortest path between two given vertices in a connectedundirected acyclic graph. To achieve this goal wassystematized theoretical information of graph theory, the understanding of which requiressolution of the proposed problem of finding the optimal path on the undirectedconnected acyclic unweighted graphs and clearly demonstrated as storedundirected connected acyclic unweighted graph in the adjacency matrix.
+
+An algorithm for calculation is proposed in the research workthe optimal path between two given vertices in an undirected connectedacyclic unweighted graph. The essence of the algorithm is to determine the levels of bothvertices. If they are different, go from the lowest to the highest level, and then performsimultaneous stepwise movement towards the root apex. In the proposedThe algorithm uses a graph traversal algorithm - a search in depth thatallows you to determine the levels of the vertices and the sequence of vertices when descending to depthcolumn. This algorithm has practical application in many search tasksthe shortest path in connected undirected acyclic unweighted graphs.The proposed algorithm works for all connected non-oriented acyclicsunweighted graphs.
+A description of algorithms in C++ is presented, which contains enough details toprovide almost direct implementation in any programming language.The method of finding the optimal path on the graph G = (V, E), presented as an adjacency matrix, implemented in program code anddisassembled for the possibility of further research and improvement of the algorithm.
+
+The practical value of the study lies in the possibility of applying the algorithmfinding the shortest distance when developing software when solvingpractical tasks of finding the shortest routes from the city on one large tributaryriver to the city on its other tributary and other similar tasks.
+
+Keywords: connected undirected acyclic graphs, optimal path,algorithm, vertices, edges, matrix.
