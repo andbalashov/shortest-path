@@ -9,6 +9,7 @@ The practical value of the study lies in the possibility of applying the algorit
 
 Keywords: connected undirected acyclic graphs, optimal path,algorithm, vertices, edges, matrix.
 
+```
 #include <iostream>
 #define MAX 1000
 
@@ -102,3 +103,4 @@ int main()
     cout << l;
     return 0;
 }
+```
